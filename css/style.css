@@ -1,0 +1,186 @@
+   /* ==============  CONFIGURAÇÕES GERAIS ================ */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #dad6cc;
+            color: #443a23;
+        }
+
+        /* =======  TOPO ========================= */
+
+        .topo {
+            background-color: rgb(22, 31, 24);
+            color: rgb(149, 157, 134);
+            padding: 25px 50px;
+            min-height: 130px;
+        }
+
+        .logo {
+            display: inline-block;
+            width: 45%;
+            vertical-align: middle;
+        }
+
+        .logo h1 {
+            margin: 0;
+            font-size: 38px;
+        }
+
+        .logo span {
+            color: #e2d3b7;
+        }
+
+        .logo p {
+            margin-top: 5px;
+            color: #bfc7d1;
+            letter-spacing: 3px;
+        }
+
+        .informacao {
+            display: inline-block;
+            width: 50%;
+            text-align: right;
+            vertical-align: middle;
+        }
+
+        .informacao h3 {
+            margin: 0;
+            color: white;
+        }
+
+        .informacao p {
+            color: #bfc7d1;
+        }
+
+        /* ====================  MENU  ======================== */
+
+        .menu {
+            background-color: #353e36;
+            text-align: center;
+            padding: 0;
+        }
+
+        .menu a {
+            display: inline-block;
+            padding: 22px 28px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .menu a:hover {
+            background-color: #7c6f52;
+
+        }
+
+
+        /* ============   FERRAMENTAS   ================ */
+
+        .ferramentas {
+            width: 90%;
+            max-width: 1200px;
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        .ferramentas h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .ferramentas>p {
+            color: #667085;
+            margin-bottom: 30px;
+        }
+
+        /* ==================  CARDS  ================ */
+
+        .card {
+    display: inline-block;
+    width: 30%;
+    height: 355px;
+    margin: 1%;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 10px;
+    vertical-align: top;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+        .icone {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            font-size: 21px;
+            margin: 10px 0;
+        }
+
+        .card {
+             display: inline-block;
+            width: 30%;
+            height: 355px;
+            margin: 1%;
+            padding: 30px 20px;
+            background-color: white;
+            border-radius: 10px;
+            vertical-align: top;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+            position: relative;
+        } 
+
+        .botao {
+            display: inline-block;
+            background-color: #97b99b;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+            position: absolute;
+            bottom: 38px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    
+        .botao:hover {
+            background-color: #97b99b;
+        }
+
+        /* ================ RODAPÉ  =============== */
+
+        .rodape {
+            background-color: #373b34;
+            color:rgb(149, 157, 134);
+            padding: 35px 50px;
+            margin-top: 60px;
+        }
+
+        .rodape-coluna {
+            display: inline-block;
+            width: 32%;
+            vertical-align: top;
+        }
+
+        .rodape h3 {
+            margin-top: 0;
+        }
+
+        .rodape p {
+            color: #71977c8a;
+        }
+
+        .copyright {
+            text-align: center;
+            border-top: 1px solid #9fd1ab;
+            margin-top: 30px;
+            padding-top: 20px;
+            color: #949494;
+        }
+
